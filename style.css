@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+.img{
+    z-index: -1;
+    background-color: black;
+    color: white;
+    background-image: url("assets/images/background\ wallpaper.jpg");
+    height: 100vh;
+    position: inherit;
+}
+
+.box{
+    /* opacity: 0.44; */
+    /* background-color: black; */
+    height: 99vh;
+    width: 80%;
+    position: inherit;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+nav .logo img{
+    height: 5.7vh;
+    /* display: inline-block; */
+    justify-items: center;
+}
+
+nav .logo{
+    display: inline-block;
+    margin: 3.6vh 3.4vh;
+}
+
+nav .btn{
+    float: right;
+    display: inline-block;
+    justify-content: center;
+    margin: 3.7vh 3vh;
+}
+
+nav .btn .lang{
+    margin: 0vh 3vh;
+    border-radius: 0.5vh;
+    border: 1px solid grey;
+    height: 4.7vh;
+}
+
+nav .btn .signin{
+    border-radius: 0.5vh;
+    border: 1px solid red;
+    height: 4.7vh;
+    cursor: pointer;
+}
+
+nav button{
+    background-color: transparent;
+    color: white;
+    border: solid 0.2vh White;
+    width: 17vh;
+    height: 4vh;
+    font-size: 2.5vh;
+    cursor: pointer;
+    opacity: 1;
+}
+
+nav .btn .signin{
+    width: 11vh;
+    background-color: red;
+    font-size: 2.2vh;
+}
+
+nav .btn .signin:hover{
+    background-color: rgb(184, 12, 12);
+}
+
+main {
+    color: white;
+    display: flex;
+    margin-top: 25vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.enterEmail .getStarted{
+    background-color: red;
+    color: white;
+    height: 7.5vh;
+    border-radius: 0.5vh;
+    border: 1px red;
+    font-size: 3.4vh;
+    width: 29vh;
+    cursor: pointer;
+}
+
+.enterEmail .getStarted:hover{
+    background-color: rgb(241, 33, 33);
+}
+
+/* CSS for input element where the input asks the users email */
+.enterEmail input{
+    border-radius: 0.5vh;
+    height: 7.5vh;
+    width: 50vh;
+    background-color: transparent;
+    border: 1px solid grey;
+    font-size: 3vh;
+    color: white;
+    margin: 1vh 1vh;
+}
+
+.main{
+    font-size: 1.3rem;
+    margin: 10px 0px;
+}
+
+main h1{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 35rem;
+    width: 80%;
+    position: inherit;
+    align-items: center;
+    margin: auto;
+}
+
+.container .leftside h1{
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.container .leftside img{
+    height: 27.5rem;
+}
+
+.main2{
+    font-size: 1.6rem;
+    margin-top: 18px;
+}
+
+.container .rightside img{
+    height: 26rem;
+}
+
+.container .rightside .video1{
+    position: absolute;
+    height: 13.5rem;
+    right: 229px;
+    top: 54rem;
+    z-index: -1;
+    
+}
+
+.gap{
+    background-color: rgb(35 33 33);
+    height: 0.5rem;
+}
+
+.container .rightside h1{
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.container .rightside .video2{
+    z-index: -1;
+    right: 17%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    max-width: 22%;
+    max-height: 47%;
+    top: 272%;
+}
+
+.container2{
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container2 .rectangle{
+    background-color: #222122;
+    border: 2px solid #222122;
+    color: WHITE;
+    height: 5.5rem;
+    width: 96%;
+    margin: 0.33rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.container2 .rectangle:hover {
+    background-color: #3f3c3c;
+}
+
+.container2 .heading{
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+}
+
+.container2 .rectangle .content{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+.container2 .rectangle .icon{
+    height: 4rem;
+    margin-right: 2rem;
+}
+
+.container2 .question{
+    font-size: 1.25rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.footer{
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    align-items: center;
+    grid-row-gap: 1rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-size: 0.9rem;
+    color: #b3aeae;
+}
+
+.grid:first-child{
+    grid-column: 1/span4;
+}
+
+.grid a{
+    color: #b3aeae;
+}
+
+.footer .btn .lang{
+    background-color: transparent;
+    color: white;
+    border: solid 0.2vh White;
+    width: 17vh;
+    height: 4vh;
+    font-size: 2.5vh;
+    cursor: pointer;
+}
+
+.btn:last-child, .btn{
+    grid-column: 1/span4;
+}
+
